@@ -4,7 +4,8 @@ using System.Text;
 var factory = new ConnectionFactory
 {
     HostName = "localhost",
-
+    UserName = "alejandro",
+    Password = "5r0sc0Ra"
 };
 
 using (var connection = factory.CreateConnection())
